@@ -53,16 +53,33 @@ body {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
+.content-d {
+  background-color: #fff823;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  min-height: 150px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 /* Estilo para o "handle" de arrastar */
 .handle {
   width: 30px;
   height: 30px;
-  background-color: #555;
+  background-color: #fffafa;
   border-radius: 50%;
   position: absolute;
   top: 10px;
   right: 10px;
   cursor: grab;
+}
+
+.handle:hover {
+  background-color: rgb(100, 99, 99);
+  transition: background-color 0.2s ease-in-out;
 }
 
 .handle:active {

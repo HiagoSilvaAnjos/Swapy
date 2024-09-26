@@ -1,0 +1,26 @@
+.card-container {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  width: 200px;
+  min-height: 150px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-pink {
+  background-color: #ffcccb;
+}
+
+.card-green {
+  background-color: #90ee90;
+}
+
+.card-blue {
+  background-color: #add8e6;
+}
+
+.card-yellow {
+  background-color: #fff823;
+}
